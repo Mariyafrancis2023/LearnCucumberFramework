@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -67,6 +68,7 @@ public class SpotifyApiStepDefinition {
 		return authGrant;
 	}
 	
+	@When("I invoke spotify Api with post method")
 	public String getAccessToken() {
 
 		Response response = (Response) RestAssured.given().header("Authorization",
