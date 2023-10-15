@@ -1,0 +1,26 @@
+{
+  "fields": { 
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "creating report functionality",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
+    "issuetype": {
+      "id": ""
+    },
+    "project": {
+      "id": ""
+    },
+    "summary": "report functionality"
+  }
+}

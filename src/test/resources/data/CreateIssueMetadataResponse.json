@@ -1,0 +1,94 @@
+{
+    "expand": "projects",
+    "projects": [
+        {
+            "self": "https://mariafp.atlassian.net/rest/api/3/project/10000",
+            "id": "10000",
+            "key": "AUT",
+            "name": "Automation",
+            "avatarUrls": {
+                "48x48": "https://mariafp.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                "24x24": "https://mariafp.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                "16x16": "https://mariafp.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                "32x32": "https://mariafp.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+            },
+            "issuetypes": [
+                {
+                    "self": "https://mariafp.atlassian.net/rest/api/3/issuetype/10001",
+                    "id": "10001",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://mariafp.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "untranslatedName": "Story",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://mariafp.atlassian.net/rest/api/3/issuetype/10002",
+                    "id": "10002",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://mariafp.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "untranslatedName": "Task",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://mariafp.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Bugs track problems or errors.",
+                    "iconUrl": "https://mariafp.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "untranslatedName": "Bug",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://mariafp.atlassian.net/rest/api/3/issuetype/10004",
+                    "id": "10004",
+                    "description": "Epics track collections of related bugs, stories, and tasks.",
+                    "iconUrl": "https://mariafp.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "untranslatedName": "Epic",
+                    "subtask": false,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                },
+                {
+                    "self": "https://mariafp.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://mariafp.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "untranslatedName": "Subtask",
+                    "subtask": true,
+                    "scope": {
+                        "type": "PROJECT",
+                        "project": {
+                            "id": "10000"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
