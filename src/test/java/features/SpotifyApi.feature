@@ -4,5 +4,5 @@ Feature: Generate Token
    
    Scenario: Get Token
     Given spotify API is available
-    When I invoke spotify api with get method
+    When I invoke spotify api with post method
     Then the response code for spotify api should be 200
