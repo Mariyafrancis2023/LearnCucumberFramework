@@ -82,6 +82,7 @@ public class SpotifyApiStepDefinition {
 		assertEquals(200, response.statusCode());
 		accessToken = response.jsonPath().getString("access_token");
 		System.out.println(accessToken);
+		
 		refreshToken = response.jsonPath().getString("refresh_token");
 		System.out.println(refreshToken);
 		return accessToken;
